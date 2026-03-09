@@ -1,0 +1,38 @@
+# ================================
+# File: .gitignore
+# ================================
+
+# OS-generated files
+.DS_Store
+Thumbs.db
+
+# Editor settings
+.vscode/
+.idea/
+
+# Log files
+*.log
+
+# Temporary files
+*.tmp
+*.swp
+*.bak
+
+# Python cache
+__pycache__/
+*.pyc
+
+# Virtual environments
+.env
+.venv
+venv/
+
+# Node modules (if frontend code is added later)
+node_modules/
+
+# Jupyter notebook checkpoints
+.ipynb_checkpoints/
+
+# Temporary data outputs (future use)
+data/tmp/
+data/raw/

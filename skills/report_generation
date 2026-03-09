@@ -1,0 +1,101 @@
+# Skill: Report Generation
+
+## Purpose
+
+Generate a structured leadership-facing briefing that summarizes research findings related to agentic coding ecosystem maturity.
+
+This skill transforms analyzed research signals and synthesized insights into a clear, structured report suitable for leadership review.
+
+---
+
+## When to Use
+
+Use this skill after the following analysis tasks have been completed:
+
+- literature analysis
+- benchmark extraction
+- framework tracking
+- ecosystem comparison
+- insight synthesis
+
+This skill is typically used when generating quarterly ecosystem briefings or summary reports.
+
+---
+
+## Inputs
+
+- source registry
+- literature analysis outputs
+- benchmark extraction results
+- framework tracking updates
+- ecosystem comparison summaries
+- synthesized insights
+
+Example inputs:
+
+- maturity signals
+- benchmark results
+- framework ecosystem developments
+- ecosystem comparison findings
+
+---
+
+## Process
+
+1. Gather relevant outputs from previous analysis tasks.
+2. Identify the most important ecosystem signals.
+3. Organize findings into a structured report format.
+4. Present insights clearly and concisely.
+5. Include supporting references to original sources.
+
+---
+
+## Output Format
+
+The report should contain the following sections:
+
+Executive Summary
+
+Language Maturity Overview
+
+ABAP vs Non-ABAP Ecosystem Comparison
+
+Framework Developments
+
+Key Benchmark Results
+
+Key Insights
+
+References
+
+Example structure:
+
+Executive Summary  
+Brief overview of the most important ecosystem developments.
+
+Language Maturity Overview  
+Summary of maturity signals across programming languages.
+
+Framework Developments  
+Highlights of significant framework updates.
+
+Key Benchmark Results  
+Extracted benchmark metrics and performance comparisons.
+
+Key Insights  
+Synthesized conclusions derived from the research.
+
+References  
+List of sources supporting the analysis.
+
+---
+
+## Notes
+
+Reports should prioritize:
+
+- clarity
+- signal over noise
+- traceability to sources
+
+The goal is to produce **leadership-ready summaries** rather than raw technical analysis.

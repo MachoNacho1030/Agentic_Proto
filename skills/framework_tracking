@@ -1,0 +1,93 @@
+# Skill: Framework Tracking
+
+## Purpose
+
+Track meaningful developments and updates in agent frameworks and related tooling across the ecosystem.
+
+Framework activity is a key indicator of ecosystem maturity. This skill monitors changes that signal growth, capability expansion, or adoption of agent-based development frameworks.
+
+---
+
+## When to Use
+
+Use this skill when analyzing sources that reference:
+
+- framework releases
+- new framework capabilities
+- framework ecosystem adoption
+- integration with other tools or platforms
+
+Relevant frameworks may include:
+
+- Antigravity
+- LangChain
+- AutoGen
+- SAP Joule
+- ReAct
+- other emerging agent frameworks
+
+---
+
+## Inputs
+
+- literature analysis outputs
+- framework-related documents
+- blog posts
+- release notes
+- technical announcements
+
+Example inputs:
+
+- source_title
+- source_url
+- extracted document text
+- framework references
+
+---
+
+## Process
+
+1. Identify the framework mentioned in the source.
+2. Determine the type of update described.
+
+Possible update types include:
+
+- framework release
+- capability expansion
+- ecosystem integration
+- community growth
+- enterprise adoption signal
+
+3. Extract details describing the update.
+4. Capture the context and potential impact on ecosystem maturity.
+5. Record the update in a structured format.
+
+---
+
+## Output Format
+
+Each framework update entry should include:
+
+- framework
+- update_type
+- source_title
+- date
+- impact_signal
+- notes
+
+Example output:
+
+framework: LangChain  
+update_type: capability expansion  
+source_title: New LangChain Agent Tools Released  
+date: 2025-XX-XX  
+impact_signal: expanding tool ecosystem for agent development  
+notes: Update introduces additional agent orchestration capabilities.
+
+---
+
+## Notes
+
+Framework tracking focuses on **ecosystem signals**, not just version updates.
+
+Updates that indicate stronger developer adoption, improved tooling, or expanded integrations should be prioritized.

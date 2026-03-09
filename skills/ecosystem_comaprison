@@ -1,0 +1,103 @@
+# Skill: Ecosystem Comparison
+
+## Purpose
+
+Compare programming language ecosystems using structured signals extracted from literature, benchmarks, and framework tracking.
+
+This skill evaluates relative ecosystem maturity by analyzing multiple dimensions such as framework availability, benchmark performance, developer activity, and enterprise adoption.
+
+---
+
+## When to Use
+
+Use this skill when the project needs to evaluate one ecosystem against another.
+
+Typical comparisons include:
+
+- ABAP vs Python
+- ABAP vs JavaScript
+- Python vs Java
+- framework ecosystems across languages
+
+This skill is typically used after literature analysis and benchmark extraction have been completed.
+
+---
+
+## Inputs
+
+- literature analysis results
+- benchmark extraction outputs
+- framework tracking entries
+- maturity dimensions defined in the prototype brief
+
+Example inputs:
+
+- language signals
+- framework updates
+- benchmark metrics
+- adoption signals
+
+---
+
+## Process
+
+1. Select the ecosystems to compare.
+2. Review signals extracted from literature analysis.
+3. Review available benchmark metrics.
+4. Review framework ecosystem activity.
+5. Evaluate differences across maturity dimensions such as:
+
+   - benchmark performance
+   - framework robustness
+   - community velocity
+   - enterprise adoption
+   - ecosystem tooling
+
+6. Identify key strengths and weaknesses for each ecosystem.
+7. Summarize the comparison in a structured format.
+
+---
+
+## Output Format
+
+Each comparison should produce:
+
+- comparison_title
+- ecosystems_compared
+- strengths
+- weaknesses
+- major_deltas
+- supporting_signals
+- conclusion
+
+Example output:
+
+comparison_title: ABAP vs Python Agent Ecosystem  
+ecosystems_compared: ABAP, Python  
+
+strengths:
+- Python ecosystem has large framework availability
+- Python supports multiple active agent frameworks
+
+weaknesses:
+- ABAP ecosystem has limited agent framework support
+
+major_deltas:
+- Python shows stronger benchmark performance signals
+- ABAP lacks comparable ecosystem tooling
+
+supporting_signals:
+- benchmark results
+- framework activity
+- developer ecosystem indicators
+
+conclusion:
+Python currently demonstrates significantly higher ecosystem maturity for agent-based development.
+
+---
+
+## Notes
+
+Comparisons should be **evidence-based and traceable**.
+
+Avoid speculative conclusions that are not supported by the available literature or benchmark signals.

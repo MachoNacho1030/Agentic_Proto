@@ -1,0 +1,85 @@
+# Skill: Timeline Update
+
+## Purpose
+
+Record completed actions, analyses, and conclusions in the Antigravity timeline.
+
+This skill ensures that important agent activities are logged so the project maintains a clear historical record of how the environment evolves over time.
+
+---
+
+## When to Use
+
+Use this skill after completing meaningful work such as:
+
+- finishing a task
+- generating analysis results
+- producing insights
+- creating reports
+- updating the research dataset
+
+This skill should be used whenever an action changes the state of the project.
+
+---
+
+## Inputs
+
+- completed task name
+-- description of the request
+- actions performed
+- outputs generated
+- conclusions or analysis
+
+Example inputs:
+
+- task identifier
+- analysis summary
+- report generation results
+
+---
+
+## Process
+
+1. Identify the task or activity that was completed.
+2. Summarize the request that initiated the work.
+3. Describe the actions taken by the agent.
+4. Capture the resulting analysis or conclusions.
+5. Record the entry in the Antigravity timeline.
+
+---
+
+## Output Format
+
+Each timeline entry should contain:
+
+- date
+- request
+- actions_taken
+- analysis
+- status
+
+Example output:
+
+date: 2026-03-09
+
+request:
+Analyze literature related to agentic coding ecosystems.
+
+actions_taken:
+- discovered new research sources
+- ingested source metadata
+- extracted benchmark signals
+
+analysis:
+Initial findings indicate stronger framework maturity in Python-based ecosystems compared to ABAP environments.
+
+status:
+Task completed and results recorded.
+
+---
+
+## Notes
+
+Timeline entries should be concise but informative.
+
+The purpose of the timeline is to preserve a **clear audit trail of agent reasoning and actions throughout the project**.

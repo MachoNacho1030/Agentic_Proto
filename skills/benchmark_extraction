@@ -1,0 +1,82 @@
+# Skill: Benchmark Extraction
+
+## Purpose
+
+Identify and extract benchmark metrics and evaluation results from source documents related to agentic coding ecosystems.
+
+This skill captures measurable performance signals that can be used to compare programming languages, frameworks, and agent systems.
+
+---
+
+## When to Use
+
+Use this skill when a source contains:
+
+- benchmark results
+- evaluation metrics
+- performance comparisons
+- experimental results
+
+Typical sources include:
+
+- research papers
+- benchmark reports
+- technical blog posts
+- framework evaluations
+
+---
+
+## Inputs
+
+- analyzed literature outputs
+- source document content
+- benchmark-related sections of the document
+
+Example inputs:
+
+- source_title
+- extracted document text
+- literature analysis results
+
+---
+
+## Process
+
+1. Scan the document for evaluation or benchmark sections.
+2. Identify benchmark frameworks or evaluation suites referenced.
+3. Extract metrics and performance values.
+4. Identify the entities being compared.
+5. Record benchmark results in structured format.
+6. Preserve the context of the benchmark to maintain interpretability.
+
+---
+
+## Output Format
+
+Each benchmark entry should include:
+
+- source_title
+- benchmark_name
+- metric
+- score
+- evaluation_context
+- comparison_entities
+- date
+
+Example output:
+
+source_title: SAP’s ABAP-1 Loses Every ABAP Benchmark  
+benchmark_name: AgentBench  
+metric: task_success_rate  
+score: 0.32  
+evaluation_context: multi-step agent tasks  
+comparison_entities: ABAP-1 vs Python-based agents  
+date: 2025-XX-XX
+
+---
+
+## Notes
+
+Benchmark extraction should focus only on **explicitly reported metrics**.
+
+Avoid interpreting qualitative statements as quantitative results unless the metric is clearly stated.

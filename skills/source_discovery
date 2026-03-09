@@ -1,0 +1,70 @@
+# Skill: Source Discovery
+
+## Purpose
+
+Identify relevant public sources related to **agentic coding ecosystems**, including programming languages, frameworks, benchmarks, and ecosystem maturity signals.
+
+This skill is responsible for building and expanding the project's **source registry**, which later analysis tasks will use.
+
+---
+
+## When to Use
+
+Use this skill when the project needs to:
+
+- discover new research sources
+- identify benchmark reports
+- locate framework updates
+- expand the literature dataset
+
+---
+
+## Inputs
+
+- project focus: agentic coding maturity
+- target languages (ABAP, Python, JavaScript, Java, Go, C#)
+- target frameworks (Antigravity, LangChain, AutoGen, SAP Joule, ReAct)
+- research keywords
+
+---
+
+## Process
+
+1. Search for sources related to the project focus.
+2. Prioritize high-signal sources such as:
+
+   - research papers
+   - engineering blog posts
+   - benchmark reports
+   - framework documentation
+
+3. Avoid low-quality or irrelevant sources.
+4. Record metadata for each discovered source.
+
+---
+
+## Output
+
+Each discovered source should include:
+
+- title
+- url
+- source_type
+- date
+- relevance_note
+
+Example output:
+
+title: SAP’s ABAP-1 Loses Every ABAP Benchmark  
+url: https://example.com/article  
+source_type: blog  
+date: 2025-XX-XX  
+relevance_note: Discusses benchmark comparisons between ABAP agents and other ecosystems.
+
+---
+
+## Notes
+
+The objective is to build a **high-quality source registry**, not to scrape large amounts of content.
+
+Focus on relevance, credibility, and ecosystem signal strength.

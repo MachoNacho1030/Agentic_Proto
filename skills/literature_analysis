@@ -1,0 +1,84 @@
+# Skill: Literature Analysis
+
+## Purpose
+
+Analyze source documents and extract structured signals related to the maturity of agentic coding ecosystems.
+
+This skill identifies relevant information about programming languages, frameworks, benchmarks, and ecosystem developments from each ingested source.
+
+---
+
+## When to Use
+
+Use this skill after a source has been ingested and normalized using the **source_ingestion** skill.
+
+Typical triggers include:
+
+- analyzing research papers
+- analyzing engineering blog posts
+- analyzing benchmark reports
+- analyzing framework announcements
+
+---
+
+## Inputs
+
+- ingested source record
+- source document content
+- project maturity dimensions
+
+Example inputs:
+
+- title
+- summary
+- source text
+
+---
+
+## Process
+
+1. Read the source document.
+2. Identify programming languages mentioned.
+3. Identify agent frameworks mentioned.
+4. Detect references to benchmark evaluations.
+5. Identify signals related to ecosystem maturity.
+
+Signals may include:
+
+- new frameworks
+- benchmark performance
+- community growth
+- enterprise adoption
+- tool ecosystem development
+
+6. Extract the most relevant findings.
+
+---
+
+## Output Format
+
+Each analyzed document should produce a structured analysis containing:
+
+- source_title
+- languages_referenced
+- frameworks_referenced
+- benchmarks_referenced
+- maturity_signals
+- key_takeaways
+
+Example output:
+
+source_title: SAP’s ABAP-1 Loses Every ABAP Benchmark  
+languages_referenced: ABAP, Python  
+frameworks_referenced: ABAP-1  
+benchmarks_referenced: AgentBench  
+maturity_signals: benchmark underperformance  
+key_takeaways: Article indicates ABAP-based agent systems currently lag behind Python-based ecosystems in benchmark results.
+
+---
+
+## Notes
+
+This skill focuses on **structured signal extraction**, not general summarization.
+
+The goal is to produce consistent outputs that can later be used for ecosystem comparison and reporting.

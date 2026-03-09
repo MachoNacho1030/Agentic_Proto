@@ -1,0 +1,82 @@
+# Skill: Insight Synthesis
+
+## Purpose
+
+Transform structured research findings into concise, decision-relevant insights.
+
+This skill reviews signals extracted from literature, benchmarks, and ecosystem comparisons and converts them into clear conclusions that can inform leadership decisions and dashboard summaries.
+
+---
+
+## When to Use
+
+Use this skill after the following analysis steps have been completed:
+
+- literature analysis
+- benchmark extraction
+- framework tracking
+- ecosystem comparison
+
+This skill is typically used before generating a report or briefing.
+
+---
+
+## Inputs
+
+- literature analysis outputs
+- benchmark extraction results
+- framework tracking updates
+- ecosystem comparison summaries
+
+Example inputs:
+
+- language maturity signals
+- benchmark performance metrics
+- framework ecosystem activity
+- adoption indicators
+
+---
+
+## Process
+
+1. Review extracted research signals.
+2. Identify recurring patterns across sources.
+3. Detect strong indicators of ecosystem maturity or weakness.
+4. Convert patterns into concise insight statements.
+5. Attach supporting signals to each insight.
+6. Estimate confidence level based on source consistency.
+
+---
+
+## Output Format
+
+Each synthesized insight should include:
+
+- insight_statement
+- supporting_evidence
+- confidence_level
+- implications
+
+Example output:
+
+insight_statement:
+Python currently demonstrates the strongest ecosystem maturity for agent-based development.
+
+supporting_evidence:
+- multiple active frameworks
+- stronger benchmark performance signals
+- large developer ecosystem
+
+confidence_level:
+high
+
+implications:
+Organizations exploring agentic coding workflows are more likely to find mature tooling in Python ecosystems than in ABAP environments.
+
+---
+
+## Notes
+
+Insight synthesis should prioritize **clarity and evidence-based reasoning**.
+
+Avoid speculative claims that cannot be supported by extracted signals.

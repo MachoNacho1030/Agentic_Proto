@@ -1,0 +1,74 @@
+# Skill: Source Ingestion
+
+## Purpose
+
+Convert discovered sources into structured records that can be analyzed consistently across the project.
+
+This skill takes entries from the **source registry** and normalizes them into a consistent metadata format.
+
+---
+
+## When to Use
+
+Use this skill after new sources have been discovered and need to be prepared for analysis.
+
+Typical triggers include:
+
+- a new source registry entry
+- newly discovered research articles
+- newly discovered blog posts or benchmark reports
+
+---
+
+## Inputs
+
+- source registry entries
+- source URLs
+- discovered source metadata
+
+Example inputs:
+
+- title
+- url
+- source type
+- publication date
+
+---
+
+## Process
+
+1. Access the source URL.
+2. Extract key metadata from the source.
+3. Normalize the metadata into a consistent format.
+4. Capture a short summary describing the source.
+5. Prepare the record for later analysis tasks.
+
+---
+
+## Output Format
+
+Each ingested source should produce a structured record containing:
+
+- title
+- author (if available)
+- date
+- url
+- source_type
+- summary
+
+Example output:
+
+title: SAP’s ABAP-1 Loses Every ABAP Benchmark  
+author: Marian Zeis  
+date: 2025-XX-XX  
+url: https://example.com/article  
+source_type: blog  
+summary: Article discussing benchmark results comparing ABAP agents with other language ecosystems.
+
+---
+
+## Notes
+
+This skill focuses on **metadata normalization and preparation**, not deep interpretation of the content.
+
+Detailed analysis is performed by the **literature_analysis** skill.

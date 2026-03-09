@@ -109,13 +109,17 @@ This folder defines **reusable agent capabilities**.
 
 A skill describes how to perform a specific type of analysis or workflow.
 
-Examples of skills used in this project may include:
+Current skills:
 
-- literature analysis
-- benchmark extraction
-- ecosystem comparison
-- framework tracking
-- report generation
+- **source_discovery** — Identify relevant public sources related to agentic coding ecosystems.
+- **source_ingestion** — Convert discovered sources into normalized structured records.
+- **literature_analysis** — Analyze source documents and extract ecosystem maturity signals.
+- **benchmark_extraction** — Extract benchmark metrics and evaluation results from sources.
+- **framework_tracking** — Track developments and updates in agent frameworks.
+- **ecosystem_comparison** — Compare language ecosystems using structured maturity signals.
+- **insight_synthesis** — Transform research findings into decision-relevant insights.
+- **report_generation** — Generate leadership-facing briefings summarizing ecosystem maturity.
+- **timeline_update** — Record completed actions and analyses in the Antigravity timeline.
 
 Each skill document describes:
 
@@ -131,22 +135,21 @@ Skills allow the agent to perform tasks consistently without reinventing methods
 
 This folder contains **discrete work items for the agent to complete**.
 
-Each task represents a specific objective related to the project.
+Each task represents a specific objective related to the project and references the skill required to complete it.
 
-Tasks typically define:
+Current tasks:
 
-- the goal of the task
-- the relevant inputs
-- the expected output
-- the current status
+- **task_001_create_source_registry.md** — Build an initial registry of research sources. Uses `source_discovery`.
+- **task_002_ingest_sources.md** — Convert sources into normalized records. Uses `source_ingestion`.
+- **task_003_analyze_literature.md** — Analyze documents and extract maturity signals. Uses `literature_analysis`.
+- **task_004_extract_benchmarks.md** — Extract benchmark metrics from literature. Uses `benchmark_extraction`.
+- **task_005_track_framework_developments.md** — Track agent framework updates. Uses `framework_tracking`.
+- **task_006_compare_ecosystems.md** — Compare language ecosystems. Uses `ecosystem_comparison`.
+- **task_007_generate_insights.md** — Synthesize findings into concise insights. Uses `insight_synthesis`.
+- **task_008_generate_leadership_brief.md** — Generate a leadership-ready briefing. Uses `report_generation`.
+- **task_009_update_timeline.md** — Record completed task results in the timeline. Uses `timeline_update`.
 
-Examples may include:
-
-- identifying relevant literature sources
-- analyzing benchmark results
-- extracting ecosystem maturity signals
-
-Agents should select tasks from this folder and use the appropriate skills to complete them.
+Tasks define the goal, inputs, expected output, skill used, and current status. Agents should select the next pending task and use the associated skill to complete it.
 
 ---
 

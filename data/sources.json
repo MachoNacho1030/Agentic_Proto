@@ -1,0 +1,146 @@
+[
+  {
+    "id": "SRC-001",
+    "title": "AgentBench: Evaluating LLMs as Agents",
+    "url": "https://arxiv.org/abs/2308.03688",
+    "source_type": "research_paper",
+    "date": "2024-01",
+    "relevance_note": "ICLR 2024 benchmark evaluating 29 LLMs across 8 interactive environments. Reveals significant performance gap between commercial and open-source models in agentic tasks. Foundational benchmark for agent capability assessment."
+  },
+  {
+    "id": "SRC-002",
+    "title": "SWE-bench: Can Language Models Resolve Real-World GitHub Issues?",
+    "url": "https://arxiv.org/abs/2310.06770",
+    "source_type": "research_paper",
+    "date": "2024-01",
+    "relevance_note": "ICLR 2024 oral. Benchmark of 2,294 real-world GitHub issues testing LLM ability to generate code patches. Key metric for agentic coding maturity. Spawned SWE-bench Verified and SWE-bench+ variants."
+  },
+  {
+    "id": "SRC-003",
+    "title": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "source_type": "research_paper",
+    "date": "2022-10",
+    "relevance_note": "Foundational paper from Princeton/Google introducing the ReAct framework. Interleaves reasoning traces with tool-use actions. Underpins many modern agent architectures including LangChain and AutoGen agent patterns."
+  },
+  {
+    "id": "SRC-004",
+    "title": "SWE-bench+ Enhanced Coding Benchmark for LLMs",
+    "url": "https://arxiv.org/abs/2410.06992",
+    "source_type": "research_paper",
+    "date": "2024-10",
+    "relevance_note": "Critical analysis of SWE-bench revealing 32.67% solution leakage and 31.08% weak test cases. Top agent success rate dropped from 12.47% to 3.97% after filtering. Important for understanding true benchmark reliability."
+  },
+  {
+    "id": "SRC-005",
+    "title": "Berkeley Function-Calling Leaderboard (BFCL)",
+    "url": "https://gorilla.cs.berkeley.edu/leaderboard.html",
+    "source_type": "benchmark_report",
+    "date": "2024-06",
+    "relevance_note": "Evaluates LLM accuracy in generating valid function/tool calls. Directly relevant to agent tool-use maturity across models. Continuously updated leaderboard tracking ecosystem progress."
+  },
+  {
+    "id": "SRC-006",
+    "title": "Terminal-Bench: Evaluating LLMs on Complex Terminal Tasks",
+    "url": "https://github.com/terminalbenchio/terminal-bench",
+    "source_type": "benchmark_report",
+    "date": "2024-11",
+    "relevance_note": "Evaluates LLMs on end-to-end technical tasks (building Linux kernel, training ML models). Tests agentic coding in terminal environments — a key real-world capability signal."
+  },
+  {
+    "id": "SRC-007",
+    "title": "LangChain State of AI Agents Report 2024",
+    "url": "https://blog.langchain.dev/langgraph-state-of-ai-agents-2024/",
+    "source_type": "engineering_blog",
+    "date": "2024-12",
+    "relevance_note": "Official LangChain report showing 43% LangSmith organizations using LangGraph. Documents rise of multi-step agents and tool calls in 2024. Key signal for framework ecosystem maturity."
+  },
+  {
+    "id": "SRC-008",
+    "title": "AutoGen v0.4: Redesigned Agentic Architecture",
+    "url": "https://microsoft.github.io/autogen/stable/",
+    "source_type": "framework_documentation",
+    "date": "2024-11",
+    "relevance_note": "Microsoft's redesigned async, event-driven multi-agent framework. Introduces improved observability (OpenTelemetry), cross-language support (Python/.NET), and distributed agent networks. Major ecosystem maturity signal."
+  },
+  {
+    "id": "SRC-009",
+    "title": "Google Agent Development Kit (ADK) — Official Documentation",
+    "url": "https://google.github.io/adk-docs/",
+    "source_type": "framework_documentation",
+    "date": "2025-04",
+    "relevance_note": "Google's full-stack agent framework announced at Cloud NEXT 2025. Supports multi-agent orchestration, MCP, A2A protocol. Model-agnostic but optimized for Gemini. Integrates LangChain, CrewAI. Strong enterprise signal."
+  },
+  {
+    "id": "SRC-010",
+    "title": "CrewAI: Framework for Orchestrating Role-Playing AI Agents",
+    "url": "https://docs.crewai.com/",
+    "source_type": "framework_documentation",
+    "date": "2025-01",
+    "relevance_note": "Open-source Python framework for collaborative multi-agent systems with role-based orchestration. Adopted by Fortune 500 companies. Rapid prototyping strength. Key comparison point for agent ecosystem maturity."
+  },
+  {
+    "id": "SRC-011",
+    "title": "SAP Joule for Developers: ABAP AI Capabilities",
+    "url": "https://community.sap.com/t5/technology-blogs-by-sap/sap-joule-for-developers-a-new-era-for-abap-development/ba-p/13960632",
+    "source_type": "engineering_blog",
+    "date": "2025-02",
+    "relevance_note": "SAP's introduction of Joule AI copilot for ABAP development. Trained on 250M+ lines of ABAP code. Reports 35% productivity gains and 50% coding time reduction. Critical source for ABAP agent ecosystem maturity."
+  },
+  {
+    "id": "SRC-012",
+    "title": "SAP ABAP Roadmap: The Agentic ABAP Era",
+    "url": "https://community.sap.com/t5/technology-blogs-by-sap/the-future-of-abap-development/ba-p/13970000",
+    "source_type": "engineering_blog",
+    "date": "2025-06",
+    "relevance_note": "SAP roadmap for agentic AI in ABAP. Plans for ABAP LLMs on GenAI Hub, A2A and MCP protocol support, VS Code for ABAP. Key signal for SAP's enterprise agent strategy and ABAP ecosystem trajectory."
+  },
+  {
+    "id": "SRC-013",
+    "title": "LangChain vs AutoGen vs CrewAI: AI Agent Framework Comparison",
+    "url": "https://www.leanware.co/insights/langchain-vs-autogen-vs-crewai",
+    "source_type": "engineering_blog",
+    "date": "2024-12",
+    "relevance_note": "Comprehensive comparison of three major agent frameworks across architecture, ecosystem maturity, integrations, and ideal use cases. LangChain leads in integrations (700+), AutoGen in multi-agent, CrewAI in rapid prototyping."
+  },
+  {
+    "id": "SRC-014",
+    "title": "MINT: Multi-turn Interaction with Tools and Feedback",
+    "url": "https://arxiv.org/abs/2309.10691",
+    "source_type": "research_paper",
+    "date": "2023-09",
+    "relevance_note": "Benchmark evaluating LLMs on multi-turn, iterative tasks requiring tool use and feedback incorporation. Captures real-world agent interaction patterns beyond single-turn evaluations."
+  },
+  {
+    "id": "SRC-015",
+    "title": "MetaTool Benchmark: Evaluating LLM Tool Selection (ICLR 2025)",
+    "url": "https://arxiv.org/abs/2310.03128",
+    "source_type": "research_paper",
+    "date": "2025-01",
+    "relevance_note": "ICLR 2025 paper evaluating whether LLMs understand when to use a tool and can select the appropriate one. Addresses critical agent capability: autonomous tool decision-making."
+  },
+  {
+    "id": "SRC-016",
+    "title": "LLM Coding Benchmarks Overview: SWE-bench, LiveCodeBench, Aider Polyglot",
+    "url": "https://www.vellum.ai/llm-leaderboard",
+    "source_type": "benchmark_report",
+    "date": "2025-03",
+    "relevance_note": "Continuously updated leaderboard aggregating multiple coding benchmarks including SWE-bench Verified, LiveCodeBench, and Aider Polyglot. Useful for tracking comparative model performance over time."
+  },
+  {
+    "id": "SRC-017",
+    "title": "AI Agent Frameworks 2025: The Complete Landscape",
+    "url": "https://www.alphacorp.ai/blog/ai-agent-frameworks-2025",
+    "source_type": "engineering_blog",
+    "date": "2025-05",
+    "relevance_note": "Overview of the 2025 agent framework landscape including Google ADK, CrewAI, LangGraph, AutoGen, and Semantic Kernel. Ranks frameworks by use case (enterprise, prototyping, research). Good ecosystem maturity overview."
+  },
+  {
+    "id": "SRC-018",
+    "title": "LiveCodeBench: Holistic and Contamination-Free Evaluation of LLMs for Code",
+    "url": "https://livecodebench.github.io/",
+    "source_type": "benchmark_report",
+    "date": "2024-06",
+    "relevance_note": "Dynamic benchmark continuously updated with new coding challenges. Tests code generation, self-repair, code execution, and test output prediction. Addresses data contamination issues in static benchmarks."
+  }
+]

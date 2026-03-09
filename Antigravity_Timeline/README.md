@@ -71,3 +71,20 @@ The workspace is intentionally partitioned into three layers to facilitate an ag
 This separation of concerns—what the system is (Context), what has happened (Timeline), and how to operate (Guidelines)—creates a highly efficient, token-conscious, and reproducible environment for agent-assisted prototyping.
 
 ---
+### 2026-03-09: Connected Repository to GitHub
+
+**Request:** "Can I connect this repo to GitHub through here?" → Private repo named `Agentic_Proto`.
+
+**Actions Taken:**
+1. Initialized Git in the local workspace (`git init`).
+2. Configured local Git identity (`MachoNacho1030`).
+3. Created the GitHub remote repo: [MachoNacho1030/Agentic_Proto](https://github.com/MachoNacho1030/Agentic_Proto) (private).
+4. Connected the remote (`git remote add origin`).
+5. Staged all files, committed ("Initial commit: Agentic Proto project setup"), and pushed to `main`.
+6. Noticed `skills/` and `tasks/` directories were missing from GitHub — Git does not track empty directories. Added `.gitkeep` placeholder files to both so they are now tracked.
+7. Committed and pushed the `.gitkeep` additions.
+
+**Analysis:**
+The repository is now version-controlled and backed up to a private GitHub repo. The initial push included 10 files across all content folders (`Prototype_Context/`, `Antigravity_Guidelines/`, `Antigravity_Timeline/`), plus root-level files (`Readme.md`, `repo_map.md`, `.gitignore`). The `.gitkeep` convention was applied to `skills/` and `tasks/` — these are empty placeholder files that exist solely to force Git to track otherwise-empty directories. This ensures the full intended repository structure is preserved on GitHub, matching what is documented in `repo_map.md`. Future changes can now be committed and pushed incrementally.
+
+---
